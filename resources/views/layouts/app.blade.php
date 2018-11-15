@@ -53,7 +53,7 @@
                                     <li class="active"><a href="#home">Inicio</a></li>
                                     <li><a href="#feature">Nosotros</a></li>
                                     <li><a href="#screenshot">Galeria</a></li>
-                                    <li><a href="#price">Mision</a></li>
+                                    <li><a href="#price">Vision</a></li>
                                     <li><a href="#contact">Contactanos</a></li>
                                     @else
                                         <li class="nav-item dropdown">
