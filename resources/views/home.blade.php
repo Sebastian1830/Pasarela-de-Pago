@@ -37,7 +37,7 @@
                                                             <i class="fa fa-pagelines" aria-hidden="true"></i>
                                                         </div>
                                                         <h5>Pagar Online</h5>
-                                                        <p>Ahorra tu tiempo y paga has click aqui para pagar la pension de tu hijo(a).</p>
+                                                        <p style="text-align: center">Ahorra tu tiempo y da click aqui para pagar la pension de tu hijo(a).</p>
                                                     </div>
                                                 </a>
                                             </div>
@@ -49,7 +49,7 @@
                                                             <i class="fa fa-gamepad" aria-hidden="true"></i>
                                                         </div>
                                                         <h5>Flexible</h5>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                        <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                                     </div>
                                                 </a>
                                             </div>
@@ -61,7 +61,7 @@
                                                             <i class="fa fa-fighter-jet" aria-hidden="true"></i>
                                                         </div>
                                                         <h5>Super Fast</h5>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                        <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                                     </div>
                                                 </a>
                                             </div>
@@ -73,7 +73,7 @@
                                                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
                                                        </div>
                                                        <h5>Stunning Design</h5>
-                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                       <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                                     </div>
                                                 </a>
                                             </div>
@@ -85,7 +85,7 @@
                                                             <i class="fa fa-laptop" aria-hidden="true"></i>
                                                         </div>
                                                         <h5>Responsive Layout</h5>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                        <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                                     </div>
                                                 </a>
                                             </div>
@@ -97,7 +97,7 @@
                                                             <i class="fa fa-mobile" aria-hidden="true"></i>
                                                         </div>
                                                         <h5>Mobile Fast</h5>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                        <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                                     </div>
                                                 </a>
                                             </div>
