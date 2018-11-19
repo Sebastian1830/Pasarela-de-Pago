@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateApoderadoTable extends Migration
+class CreateAlumxApoTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,14 @@ class CreateApoderadoTable extends Migration
      */
     public function up()
     {
-        Schema::disableForeignKeyConstraints();
-        Schema::create('Apoderado', function (Blueprint $table) {
+        Schema::create('alumxapo', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('nombres');
-            $table->string('apellidoP');
-            $table->string('apellidoM');
-            $table->string('dni')->unique();
+            $table->unsignedInteger('alumno_id');
+            $table->unsignedInteger('apoderado_id');
             $table->timestamps();
+            $table->foreign('apoderado_id')->references('id')->on('Apoderado');
+            $table->foreign('alumno_id')->references('id')->on('alumno');
+
         });
     }
 
@@ -31,6 +31,6 @@ class CreateApoderadoTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('_apoderado');
+        Schema::dropIfExists('_alumx_apo');
     }
 }

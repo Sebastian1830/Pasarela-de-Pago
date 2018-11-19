@@ -16,11 +16,11 @@ class CreatePagosTable extends Migration
         Schema::disableForeignKeyConstraints();
         Schema::create('Pagos', function (Blueprint $table) {
             $table->increments('id');
-            $table->unsignedInteger('apoderado_id');
+            $table->unsignedInteger('alumxapo_id');
             $table->unsignedInteger('cuota_id');
             $table->decimal('total',6,2);
             $table->enum('estado',['ACTIVO','MOROSO','INHABILITADO']);
-            $table->foreign('apoderado_id')->references('id')->on('Apoderado');
+            $table->foreign('alumxapo_id')->references('id')->on('alumxapo');
             $table->foreign('cuota_id')->references('id')->on('Cuota');
             $table->timestamps();
         });
