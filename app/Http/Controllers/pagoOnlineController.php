@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Alumno;
 use Illuminate\Http\Request;
 
 class pagoOnlineController extends Controller
@@ -13,6 +14,8 @@ class pagoOnlineController extends Controller
 
     public function index()
     {
-        return view('pagoOnline');
+        $id =  auth()->user()->apoderado_id ;
+        $alumnos = \DB::select("call up_alumxapo({$id})");
+        return view('pagoOnline')->with('alumnos',$alumnos);
     }
 }

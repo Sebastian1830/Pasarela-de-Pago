@@ -13,8 +13,8 @@
                         </div>
                     @endif
                     <select name="alumno_id" id="input" class="form-control">
-                        @foreach ($alumno as $alumno)
-                            <option value="{{ $alumno['id'] }}">{{ $alumno['nombre'] }}</option>
+                        @foreach ($alumnos as $alumnos)
+                            <option value="{{ $alumnos->id }}">{{ $alumnos->nombres }}</option>
                         @endforeach
                     </select>
                     <div>
