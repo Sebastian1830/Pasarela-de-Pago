@@ -18,7 +18,6 @@ class CreatePagosTable extends Migration
             $table->increments('id');
             $table->unsignedInteger('alumxapo_id');
             $table->unsignedInteger('cuota_id');
-            $table->decimal('total',6,2);
             $table->enum('estado',['ACTIVO','MOROSO','INHABILITADO']);
             $table->foreign('alumxapo_id')->references('id')->on('alumxapo');
             $table->foreign('cuota_id')->references('id')->on('Cuota');

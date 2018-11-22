@@ -20,6 +20,7 @@ class CreateCuotasTable extends Migration
             $table->date('fechaFin');
             $table->string('detalle');
             $table->unsignedInteger('mesCuota_id');
+            $table->enum('moneda',['SOL','DOL']);
             $table->decimal('monto',6,2);
             $table->foreign('mesCuota_id')->references('id')->on('mesCuota');
             $table->timestamps();
