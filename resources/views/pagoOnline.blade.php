@@ -12,42 +12,42 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    <select name="alumno_id" id="input" class="form-control">
+                    <select name="alumno_id" id="alumno_id" class="form-control">
                         @foreach ($alumnos as $alumnos)
                             <option value="{{ $alumnos->id }}">{{ $alumnos->nombres }}</option>
                         @endforeach
                     </select>
+                    
                     <div>
                         <table class="table">
                             <thead>
                                 <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">First</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
+                                <th scope="col">Fecha Inicio</th>
+                                <th scope="col">Fecha Fin</th>
+                                <th scope="col">Detalle</th>
+                                <th scope="col">Monto</th>
+                                <th scope="col">Accion</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                                </tr>
-                                <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                                </tr>
-                                <tr>
-                                <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
-                                <td>@twitter</td>
-                                </tr>
+                                @foreach ($pagos as $pagos)
+                                    <tr>
+                                    <th scope="row">{{ $pagos->id }}</th>
+                                    <td>{{ $pagos->fechaIni }}</td>
+                                    <td>{{ $pagos->fechaFin }}</td>
+                                    <td>{{ $pagos->detalle }}</td>
+                                    <td>{{ $pagos->monto }}</td>
+                                    <td>
+                                        <a class="btn default-button-green">pagar</a>
+                                    </td>
+                                    </tr>
+                                @endforeach
                             </tbody>
                         </table>
+                        @foreach ($pagos as $pagos)
+                            <label >{{ $pagos }}</label>
+                        @endforeach
                     </div>
                 </div>
             </div>

@@ -12,10 +12,12 @@ class pagoOnlineController extends Controller
         $this->middleware('auth');
     }
 
-    public function index()
+    public function index(Request $request)
     {
-        $id =  auth()->user()->apoderado_id ;
-        $alumnos = \DB::select("call up_alumxapo({$id})");
-        return view('pagoOnline')->with('alumnos',$alumnos);
+        $idapoderado =  auth()->user()->apoderado_id;
+        $alumnos = \DB::select("call up_alumxapo({$idapoderado})");
+        $idalumno = $request->input('alumno_id');
+        $pagos = \DB::select('call up_pago(?,?)',array($idapoderado,$idalumno));
+        return view('pagoOnline')->with('alumnos',$alumnos)->with('pagos',$pagos);
     }
 }
