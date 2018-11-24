@@ -50,12 +50,10 @@
                                 @endif                                
                             </tbody>
                         </table>
-                        @if($pagos != null)
+                        @if($pagos == null)
                         @foreach ($pagos as $pagos)
-                            <label >{{ $pagos }}</label>
+                            <h4 class= "text-center">No hay pagos por mostrar</h4>
                         @endforeach
-                        @else
-                        <h4 class= "text-center">No hay pagos por mostrar</h4>
                         @endif
                     </div>
                 </div>
