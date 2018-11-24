@@ -18,6 +18,7 @@ class pagoOnlineController extends Controller
         $alumnos = \DB::select("call up_alumxapo({$idapoderado})");
         $idalumno = $request->input('alumno_id');
         $pagos = \DB::select('call up_pago(?,?)',array($idapoderado,$idalumno));
-        return view('pagoOnline')->with('alumnos',$alumnos)->with('pagos',$pagos);
+        $refresh = $idalumno == null ? true : false;
+        return view('pagoOnline')->with('alumnos',$alumnos)->with('pagos',$pagos)->with('exist',$refresh);
     }
 }

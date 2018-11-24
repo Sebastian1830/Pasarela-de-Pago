@@ -13,7 +13,7 @@
                         </div>
                     @endif
                     <form action="">
-                    <select name="alumno_id" id="alumno_id" class="form-control" autofocus @if($pagos == null) onfocus="this.form.submit()" @endif>
+                    <select name="alumno_id" id="alumno_id" class="form-control" autofocus @if($exist && $pagos == null) onfocus="this.form.submit()" @endif>
                         @foreach ($alumnos as $alumno)
                             <option onclick="this.form.submit()" value="{{ $alumno->id }}">{{ $alumno->nombres }}</option>
                         @endforeach
@@ -33,6 +33,8 @@
                                 </tr>
                             </thead>
                             <tbody>
+                            @if($pagos != null)
+
                                 @foreach ($pagos as $pagos)
                                     <tr>
                                     <th scope="row">{{ $pagos->id }}</th>
@@ -45,11 +47,16 @@
                                     </td>
                                     </tr>
                                 @endforeach
+                                @endif                                
                             </tbody>
                         </table>
+                        @if($pagos != null)
                         @foreach ($pagos as $pagos)
                             <label >{{ $pagos }}</label>
                         @endforeach
+                        @else
+                        <h4 class= "text-center">No hay pagos por mostrar</h4>
+                        @endif
                     </div>
                 </div>
             </div>
