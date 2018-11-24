@@ -13,7 +13,7 @@
                         </div>
                     @endif
                     <form action="">
-                    <select name="alumno_id" id="alumno_id" class="form-control" >
+                    <select name="alumno_id" id="alumno_id" class="form-control" autofocus @if($pagos == null) onfocus="this.form.submit()" @endif>
                         @foreach ($alumnos as $alumno)
                             <option onclick="this.form.submit()" value="{{ $alumno->id }}">{{ $alumno->nombres }}</option>
                         @endforeach
