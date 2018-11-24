@@ -12,11 +12,13 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    <select name="alumno_id" id="alumno_id" class="form-control">
-                        @foreach ($alumnos as $alumnos)
-                            <option value="{{ $alumnos->id }}">{{ $alumnos->nombres }}</option>
+                    <form action="">
+                    <select name="alumno_id" id="alumno_id" class="form-control" >
+                        @foreach ($alumnos as $alumno)
+                            <option onclick="this.form.submit()" value="{{ $alumno->id }}">{{ $alumno->nombres }}</option>
                         @endforeach
                     </select>
+                    </form>
                     
                     <div>
                         <table class="table">
