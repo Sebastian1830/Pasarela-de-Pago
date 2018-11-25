@@ -43,7 +43,9 @@
                                     <td>{{ $pagos->detalle }}</td>
                                     <td>{{ $pagos->monto }}</td>
                                     <td>
-                                        <a class="btn default-button-green">pagar</a>
+                                        <a href="#" class="btn btn-outline-info">
+                                            pagar <i class="fa fa-paypal fa-1x"></i>
+                                        </a>
                                     </td>
                                     </tr>
                                 @endforeach
