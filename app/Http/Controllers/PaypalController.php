@@ -41,9 +41,9 @@ class PaypalController extends Controller
         $subtotal = 0;
         $currency = 'USD';
         $quantity = 1;
-        $idalumno = $request->input('alumno_id');
+        $idalumno = 2;
         $idapoderado =  auth()->user()->apoderado_id;
-        $idpago = $request->input('pagosid');
+        $idpago = 2;
         $pago = \DB::select('call  up_pagotoPaypal(?,?,?)',array($idapoderado,$idalumno,$idpago));
         $item = new Item();
         foreach($pago as $pago){
