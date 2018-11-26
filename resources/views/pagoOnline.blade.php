@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('content') 
+@section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -43,9 +43,12 @@
                                     <td>{{ $pagos->detalle }}</td>
                                     <td>{{ $pagos->monto }}</td>
                                     <td>
-                                        <a href="#" class="btn btn-outline-info">
-                                            pagar <i class="fa fa-paypal fa-1x"></i>
-                                        </a>
+                                        <form action = "">
+                                            <a href="{{ url('payment') }}" class="btn btn-outline-info">
+                                                <input name="pagosid" id="pagosid" type="hidden"  value="{{ $pagos->id }}">
+                                                pagar <i class="fa fa-paypal fa-1x"></i>
+                                            </a>
+                                        </form>
                                     </td>
                                     </tr>
                                 @endforeach
