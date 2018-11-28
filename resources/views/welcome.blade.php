@@ -53,8 +53,8 @@
                                         <div class="feature_icon">
                                             <i class="fa fa-gamepad" aria-hidden="true"></i>
                                         </div>
-                                        <h5>Flexible</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <h5>Reporte de Notas</h5>
+                                        <p>Da un seguimiento continuo del desarrollo intelectual de tu hijo.</p>
                                     </div>
                                 </div>
                                 <!-- Single About Part Area Start-->
@@ -63,8 +63,8 @@
                                         <div class="feature_icon">
                                             <i class="fa fa-fighter-jet" aria-hidden="true"></i>
                                         </div>
-                                        <h5>Super Fast</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <h5>Observaciones de Docentes</h5>
+                                        <p>Recive comentarios de como mejorar el desarrollo intelectual de tu hijo desde la comodidad de tu hogar.</p>
                                     </div>
                                 </div>
                                 <!-- Single About Part Area Start-->
@@ -73,8 +73,8 @@
                                         <div class="feature_icon">
                                             <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
                                         </div>
-                                        <h5>Stunning Design</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <h5>Notificaciones</h5>
+                                        <p>Recive los ultimos avisos del colegio desde la web.</p>
                                     </div>
                                 </div>
                                 <!-- Single About Part Area Start-->
@@ -83,8 +83,8 @@
                                         <div class="feature_icon">
                                             <i class="fa fa-laptop" aria-hidden="true"></i>
                                         </div>
-                                        <h5>Responsive Layout</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <h5>Chat Docente</h5>
+                                        <p>Comunicate con el docente de tu hijo mediante nuestra plataforma de chat gratuita.</p>
                                     </div>
                                 </div>
                                 <!-- Single About Part Area Start-->
@@ -93,8 +93,8 @@
                                         <div class="feature_icon">
                                             <i class="fa fa-mobile" aria-hidden="true"></i>
                                         </div>
-                                        <h5>Mobile Fast</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <h5>Proximamente en Android</h5>
+                                        <p>Estamos trabajando para que tengas mayor accesibilidad a nuestro servicio.</p>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@
                     <div class="col-12">
                         <!-- Total User Text -->
                         <div class="total_subscriber_text">
-                            <h3><span class="counter">12,89,1476</span> User have been using our APP successfully.</h3>
+                            <h3><span class="counter">19,476</span> Alumnos graduados de nuestras aulas.</h3>
                             <a href="#download" class="btn btn-pill btn-lg btn-flat-blue">Get Started Today</a>
                         </div>
                     </div>
