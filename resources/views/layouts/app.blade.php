@@ -51,7 +51,7 @@
                                         <a class="nav-button btn-pill bg-mat-green align-to-right" href="{{ route('register') }}">{{ __('Registro') }}</a>
                                     @endif
                                     <li class="active"><a href="#home">Inicio</a></li>
-                                    <li><a href="#feature">Nosotros</a></li>
+                                    <li><a href="#feature">Herramientas</a></li>
                                     <li><a href="#screenshot">Galeria</a></li>
                                     <li><a href="#price">Vision</a></li>
                                     <li><a href="#contact">Contactanos</a></li>
