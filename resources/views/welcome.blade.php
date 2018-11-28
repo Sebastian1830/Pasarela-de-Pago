@@ -7,9 +7,8 @@
                 <div class="row h-100 align-items-center">
                     <div class="col-8 col-sm-6">
                         <div class="welcome_text_area">
-                            <h2 class="fonts-shadow-into-light">Let Your Dreams Start Today</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repellendus dicta maiores pariatur possimus corrupti cum corporis officia quas facere?</p>
-                            <a href="#" class="btn default-button m-sm-top-0"><i class="fa fa-download"></i>Download Now</a>
+                            <h2 class="fonts-shadow-into-light">Bienvenidos al Mejor Colegio del Norte</h2>
+                            <p>Novel School ofrece los mejores servicios educativos del norte del Perú y te brinda las mejores herramientas que solucionaran tu dia.</p>
                         </div>
                     </div>
                     <div class="col-4 col-sm-6">
@@ -29,8 +28,8 @@
                     <div class="col-12">
                         <!-- Section Heading Start -->
                         <div class="section_heading wow fadeInUp">
-                            <h2>Bright<span> Features</span></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <h2>Funcionalidades<span> Novelistas</span></h2>
+                            <p style="text-align: center">Le ofrecemos a nuestros clientes las mejores funcionalidades.</p>
                         </div>
                     </div>
                 </div>
@@ -44,8 +43,8 @@
                                         <div class="feature_icon">
                                             <i class="fa fa-pagelines" aria-hidden="true"></i>
                                         </div>
-                                        <h5>Simple &amp; Light</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <h5>Pagos Online</h5>
+                                        <p>Ahorra tu tiempo y da click aqui para pagar la pension de tu hijo(a).</p>
                                     </div>
                                 </div>
                                 <!-- Single About Part Area Start-->
