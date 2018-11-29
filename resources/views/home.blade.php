@@ -41,65 +41,54 @@
                                                     </div>
                                                 </a>
                                             </div>
-                                            <!-- Single About Part Area Start-->
                                             <div class="col-12 col-sm-6 col-lg-4">
-                                                <a href="#">
-                                                    <div class="single_about_part wow fadeInUp">
-                                                        <div class="feature_icon">
-                                                            <i class="fa fa-gamepad" aria-hidden="true"></i>
-                                                        </div>
-                                                        <h5>Flexible</h5>
-                                                        <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                <div class="single_about_part wow fadeInUp">
+                                                    <div class="feature_icon">
+                                                        <i class="fa fa-gamepad" aria-hidden="true"></i>
                                                     </div>
-                                                </a>
+                                                    <h5>Reporte de Notas</h5>
+                                                    <p>Da un seguimiento continuo del desarrollo intelectual de tu hijo.</p>
+                                                </div>
                                             </div>
                                             <!-- Single About Part Area Start-->
                                             <div class="col-12 col-sm-6 col-lg-4">
-                                                <a href="#">
-                                                    <div class="single_about_part wow fadeInUp">
-                                                        <div class="feature_icon">
-                                                            <i class="fa fa-fighter-jet" aria-hidden="true"></i>
-                                                        </div>
-                                                        <h5>Super Fast</h5>
-                                                        <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                <div class="single_about_part wow fadeInUp">
+                                                    <div class="feature_icon">
+                                                        <i class="fa fa-fighter-jet" aria-hidden="true"></i>
                                                     </div>
-                                                </a>
+                                                    <h5>Observaciones de Docentes</h5>
+                                                    <p>Recive comentarios de como mejorar el desarrollo intelectual de tu hijo desde la comodidad de tu hogar.</p>
+                                                </div>
                                             </div>
                                             <!-- Single About Part Area Start-->
                                             <div class="col-12 col-sm-6 col-lg-4">
-                                                <a href="#">
-                                                    <div class="single_about_part wow fadeInUp">
-                                                       <div class="feature_icon">
-                                                           <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-                                                       </div>
-                                                       <h5>Stunning Design</h5>
-                                                       <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                <div class="single_about_part wow fadeInUp">
+                                                    <div class="feature_icon">
+                                                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
                                                     </div>
-                                                </a>
+                                                    <h5>Notificaciones</h5>
+                                                    <p>Recive los ultimos avisos del colegio desde la web.</p>
+                                                </div>
                                             </div>
                                             <!-- Single About Part Area Start-->
                                             <div class="col-12 col-sm-6 col-lg-4">
-                                                <a href="#">
-                                                    <div class="single_about_part wow fadeInUp">
-                                                        <div class="feature_icon">
-                                                            <i class="fa fa-laptop" aria-hidden="true"></i>
-                                                        </div>
-                                                        <h5>Responsive Layout</h5>
-                                                        <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                <div class="single_about_part wow fadeInUp">
+                                                    <div class="feature_icon">
+                                                        <i class="fa fa-laptop" aria-hidden="true"></i>
                                                     </div>
-                                                </a>
+                                                    <h5>Chat Docente</h5>
+                                                    <p>Comunicate con el docente de tu hijo mediante nuestra plataforma de chat gratuita.</p>
+                                                </div>
                                             </div>
                                             <!-- Single About Part Area Start-->
                                             <div class="col-12 col-sm-6 col-lg-4">
-                                                <a href="#">
-                                                    <div class="single_about_part wow fadeInUp">
-                                                        <div class="feature_icon">
-                                                            <i class="fa fa-mobile" aria-hidden="true"></i>
-                                                        </div>
-                                                        <h5>Mobile Fast</h5>
-                                                        <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                <div class="single_about_part wow fadeInUp">
+                                                    <div class="feature_icon">
+                                                        <i class="fa fa-mobile" aria-hidden="true"></i>
                                                     </div>
-                                                </a>
+                                                    <h5>Proximamente en Android</h5>
+                                                    <p>Estamos trabajando para que tengas mayor accesibilidad a nuestro servicio.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
