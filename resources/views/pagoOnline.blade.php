@@ -85,6 +85,9 @@
                                                                     function() {
                                                                         document.querySelector('#paypal-button-container-{{$pagos->id}}')
                                                                             .innerText = 'Pago Realizado!';
+
+                                                                            saveData({{$pagos->id}});
+
                                                                     }
                                                                 );
                                                             }
@@ -110,11 +113,19 @@
             </div>
         </div>
     </div>
-
-
+    
+    <script rel="javascript" type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/core.js"></script>
+    
     <script>
-        $("a.btn-paypal").on( "focus", function() {
-            alert('asd');
-        });
+        function saveData(idPago){
+ $.get('/pagoOnlines',
+    {
+        id: idPago,
+        status: "PAGADO"
+    },
+    function(data, status){
+        alert("Data: " + data + "\nStatus: " + status);
+    });
+  }
     </script>
 @endsection

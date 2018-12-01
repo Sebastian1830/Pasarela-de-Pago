@@ -21,4 +21,15 @@ class pagoOnlineController extends Controller
         $refresh = $idalumno == null ? true : false;
         return view('pagoOnline')->with('alumnos',$alumnos)->with('pagos',$pagos)->with('exist',$refresh);
     }
+
+    public function update(Request $request){
+        $id = $request->id;
+        $status = $request->status;
+
+        \DB::table('pagos')
+            ->where('id', $id)
+            ->update(['estado' => $status]);
+
+        return "Actualizado a Pagado"; 
+    }
 }

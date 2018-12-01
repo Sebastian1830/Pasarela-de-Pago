@@ -20,6 +20,9 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/pagoOnline', 'pagoOnlineController@index')->name('pagoOnline');
 
+
+Route::get('/pagoOnlines', 'pagoOnlineController@update')->name('getResponse');
+
 // Paypal
 // Enviamos nuestro pedido a PayPal
 Route::get('payment', array(
