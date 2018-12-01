@@ -1,8 +1,8 @@
 <?php
 return array(
     // set your paypal credential
-    'client_id' => 'AQZCa9BWMGJs8itFr1oxI-HUP9balbhL9segGMXHEOxlz3CEtUEY7KFPxrGc7u-B9IrvqPzmsu1FrFW-',
-    'secret' => 'EDNG4ZwR_D9ejCrfPGgPwp5Cq1hTakKDhTi2u-6ftsjsRTW9tAaPDnbYqjbll14caZBHMpGCAVn37ldl',
+    'client_id' => 'AcIhh8SpAOXuSiEop7ugeSmJfXaDOTRlAuy_X9gA9TN4OeFfq8dwG6BnRF1nTEmhjo9Fcm_C7OGLfilr',
+    'secret' => 'EOjVE0BlNo0AxQbRG96ogTfEZYUIaEOyiHLbAH_6nzMHY8XPZDrs5qUOsohNI2Dk00erwuGOnj6LTg6I',
     /**
      * SDK configuration 
      */
@@ -29,6 +29,6 @@ return array(
          * Logging is most verbose in the 'FINE' level and decreases as you
          * proceed towards ERROR
          */
-        'log.LogLevel' => 'FINE'
+        'log.LogLevel' => 'ERROR'
     ),
 );
