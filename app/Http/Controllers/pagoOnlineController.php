@@ -26,10 +26,15 @@ class pagoOnlineController extends Controller
         $id = $request->id;
         $status = $request->status;
 
+        $date= date('Y-m-d');
+
         \DB::table('pagos')
             ->where('id', $id)
             ->update(['estado' => $status]);
 
+        \DB::table('bitacorapago')->insert(
+            ['pagos_id' => $id, 'fechaPago' => $date]
+        );
         return "Actualizado a Pagado"; 
     }
 }

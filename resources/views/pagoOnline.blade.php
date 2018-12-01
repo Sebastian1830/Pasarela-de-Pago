@@ -118,14 +118,14 @@
     
     <script>
         function saveData(idPago){
- $.get('/pagoOnlines',
-    {
-        id: idPago,
-        status: "PAGADO"
-    },
-    function(data, status){
-        alert("Data: " + data + "\nStatus: " + status);
-    });
-  }
+        $.get('/pagoOnlines',
+        {
+            id: idPago,
+            status: "PAGADO"
+        },
+        function(data, status){
+            alert("Data: " + data + "\nStatus: " + status);
+        });
+    }
     </script>
 @endsection
